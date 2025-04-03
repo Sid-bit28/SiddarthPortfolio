@@ -30,7 +30,8 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  });
+  }, []);
+
   return (
     <nav className="container mx-auto sticky top-5 z-10">
       <div className="flex items-center justify-between rounded-full bg-white/25 border-[#fee6cc] backdrop-blur-[10px] m-5 p-3 md:p-0">
@@ -86,7 +87,7 @@ const Navbar = () => {
         </ul>
 
         {/* Hire Me Button */}
-        <button className="hidden md:block h-12 text-[15px] font-medium text-white bg-purple-800 rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105">
+        <button className="hidden md:block h-12 text-[15px] font-medium text-white bg-linear-65 from-purple-800 to-pink-800 rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105">
           Hire Me
         </button>
       </div>
