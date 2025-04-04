@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 import { SKILLS, SKILL_TABS } from '../utils/data';
 import Tabs from '../components/Tabs';
@@ -39,14 +40,19 @@ const TechnicalProficiency = () => {
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 min-h-[430px]">
           {tabData.map((skill, index) => (
-            <div key={skill.id}>
+            <motion.div
+              key={skill.id}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, delay: index * 0.1 }}
+            >
               <SkillCard
                 icon={<skill.icon className="w-6 h-6 text-primary" />}
                 skillName={skill.skill}
                 description={skill.description}
                 progress={skill.progress}
               />
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
