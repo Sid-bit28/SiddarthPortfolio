@@ -6,7 +6,7 @@ import TechnicalProficiency from './sections/TechnicalProficiency';
 
 const App = () => {
   return (
-    <div>
+    <div className="mb-80">
       <Navbar />
       <Hero />
       <TechnicalProficiency />

@@ -39,7 +39,7 @@ export const STATS = [
   { id: '04', count: '17+', label: 'Happy \nClients' },
 ];
 
-export const SKILLS_TABS = [
+export const SKILL_TABS = [
   { id: '01', label: 'All', value: 'all' },
   { id: '02', label: 'Frontend', value: 'frontend' },
   { id: '03', label: 'Backend', value: 'backend' },
@@ -49,7 +49,7 @@ export const SKILLS_TABS = [
 
 export const SKILLS = [
   {
-    id: '01',
+    id: '1',
     icon: FaReact,
     skill: 'React JS',
     progress: 95,
@@ -58,7 +58,7 @@ export const SKILLS = [
       'Experienced in building scalable, components-driven web applications using React.js.',
   },
   {
-    id: '02',
+    id: '2',
     icon: FaHtml5,
     skill: 'HTML',
     progress: 99,
@@ -67,7 +67,7 @@ export const SKILLS = [
       'Experienced in building scalable, components-driven web applications using React.js.',
   },
   {
-    id: '03',
+    id: '3',
     icon: FaCss3,
     skill: 'CSS',
     progress: 65,
@@ -76,7 +76,7 @@ export const SKILLS = [
       'Experienced in building scalable, components-driven web applications using React.js.',
   },
   {
-    id: '04',
+    id: '4',
     icon: FaReact,
     skill: 'React JS',
     progress: 95,
@@ -85,7 +85,7 @@ export const SKILLS = [
       'Experienced in building scalable, components-driven web applications using React.js.',
   },
   {
-    id: '01',
+    id: '5',
     icon: FaReact,
     skill: 'React JS',
     progress: 95,
@@ -94,7 +94,7 @@ export const SKILLS = [
       'Experienced in building scalable, components-driven web applications using React.js.',
   },
   {
-    id: '01',
+    id: '6',
     icon: FaReact,
     skill: 'React JS',
     progress: 95,
