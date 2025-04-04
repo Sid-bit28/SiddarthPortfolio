@@ -105,7 +105,7 @@ export const SKILLS = [
 ];
 
 export const ABOUT_ME = {
-  content: `I'm a passionate developer with a strong foundation in building responsive, user-friendly websites.`,
+  content: `\nI'm a passionate developer with a strong foundation in building responsive, user-friendly websites.`,
   socialLinks: [
     { id: '01', label: 'Facebook', icon: FaFacebook, link: '#' },
     { id: '02', label: 'Instagram', icon: FaInstagram, link: '#' },
