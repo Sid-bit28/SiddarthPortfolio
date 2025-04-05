@@ -51,4 +51,8 @@
   .section-title {
     @apply text-[26px] font-semibold text-center bg-linear-65 from-purple-800 to-pink-800 bg-clip-text text-transparent;
   }
+
+  .arrow-btn {
+    @apply absolute top-1/2 transform -translate-y-1/2 bg-primary text-white p-2 rounded-full shadow
+  }
 }

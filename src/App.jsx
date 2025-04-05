@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import TechnicalProficiency from './sections/TechnicalProficiency';
 import AboutMe from './sections/AboutMe';
+import MyProjects from './components/MyProjects';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <TechnicalProficiency />
       <AboutMe />
+      <MyProjects />
     </div>
   );
 };
