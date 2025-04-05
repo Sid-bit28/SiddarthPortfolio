@@ -17,22 +17,33 @@ const Hero = () => {
             👋 Hi, I'm Siddarth Banerjee.
           </h3>
           <h1 className="w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-linear-65 from-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Building Scalable & User Friendly apps.
+            I "try" to make cool stuff for the web.
           </h1>
 
           <p className="w-full lg:w-[500px] text-sm lg:text-base mt-4">
-            I'm passionate Full Stack Frontend Developer crafting responsive
-            accessible, and dynamic web applications using React, Node.js and
-            TailwindCSS.
+            I'm passionate Full Stack Developer crafting responsive accessible,
+            and dynamic web applications using React, Node.js and TailwindCSS.
           </p>
 
           <div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
-            <button className="flex-1 md:flex-none action-btn-outline btn-scale-anim">
-              View My Work
-            </button>
-            <button className="flex-1 md:flex-none action-btn btn-scale-anim">
-              Download Resume
-            </button>
+            <a
+              className="cursor-pointer"
+              href="https://github.com/Sid-bit28"
+              target="_blank"
+            >
+              <button className="flex-1 md:flex-none action-btn-outline btn-scale-anim">
+                View My Work
+              </button>
+            </a>
+            <a
+              className="cursor-pointer"
+              href="https://drive.google.com/file/d/1s8OMAK7-pnw6yU9riwUvr7mgVxdj4ZW0/view?usp=sharing"
+              target="_blank"
+            >
+              <button className="flex-1 md:flex-none action-btn btn-scale-anim">
+                Download Resume
+              </button>
+            </a>
           </div>
         </div>
 
@@ -53,13 +64,13 @@ const Hero = () => {
             className="icon-img left-5 md:left-10 -bottom-2 rotate-[2.75deg]"
           />
           <img
-            src={ICON_3}
-            alt="Icon 3"
+            src={ICON_4}
+            alt="Icon 4"
             className="icon-img left-[110px] md:left-[150px] -bottom-6 rotate-[3.75deg]"
           />
           <img
-            src={ICON_4}
-            alt="Icon 4"
+            src={ICON_3}
+            alt="Icon 3"
             className="icon-img left-[200px] md:left-[255px] -bottom-6 md:-bottom-10 rotate-[4.75deg]"
           />
         </div>

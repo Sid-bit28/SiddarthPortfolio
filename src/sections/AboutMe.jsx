@@ -33,7 +33,12 @@ const AboutMe = () => {
 
           <div className="flex gap-4 mt-6">
             {ABOUT_ME.socialLinks.map(social => (
-              <a key={social.label} className="cursor-pointer group">
+              <a
+                key={social.label}
+                className="cursor-pointer group"
+                href={social.link}
+                target="_blank"
+              >
                 <social.icon className="text-2xl text-secondary transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 group-hover:translate-y-[-2px] group-hover:text-primary" />
               </a>
             ))}

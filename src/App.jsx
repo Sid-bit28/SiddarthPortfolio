@@ -10,7 +10,7 @@ import Footer from './sections/Footer';
 
 const App = () => {
   return (
-    <div className="mb-80">
+    <div>
       <Navbar />
       <Hero />
       <TechnicalProficiency />
