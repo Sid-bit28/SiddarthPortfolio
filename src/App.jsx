@@ -5,6 +5,8 @@ import Hero from './sections/Hero';
 import TechnicalProficiency from './sections/TechnicalProficiency';
 import AboutMe from './sections/AboutMe';
 import MyProjects from './components/MyProjects';
+import ContactMe from './sections/ContactMe';
+import Footer from './sections/Footer';
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <TechnicalProficiency />
       <AboutMe />
       <MyProjects />
+      <ContactMe />
+      <Footer />
     </div>
   );
 };
